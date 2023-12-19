@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+* :active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+    font-size: inherit;
+}
+
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+/*====================================================*/
+
+.page {
+}
+
+.page__wrapper {
+    padding: 50px 0;
+    min-height: 100vh;
+    background: antiquewhite;
+}
+
+.page__container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.page__label {
+    margin-bottom: 20px;
+}
+
+.page__input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.page__button {
+    background: #572727;
+    color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.page__button--search {
+}
+
+.page__button--random {
+    margin-bottom: 30px;
+}
+
+.page__user {
+    padding: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user {
+
+}
+
+.user__avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
